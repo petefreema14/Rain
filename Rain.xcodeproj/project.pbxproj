@@ -13,6 +13,24 @@
 		C1920E7D19FA87C300B6A3B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1920E7C19FA87C300B6A3B7 /* Images.xcassets */; };
 		C1920E8019FA87C300B6A3B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1920E7E19FA87C300B6A3B7 /* LaunchScreen.xib */; };
 		C1920E8C19FA87C300B6A3B7 /* RainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1920E8B19FA87C300B6A3B7 /* RainTests.swift */; };
+		C1920E9619FA8A4600B6A3B7 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1920E9519FA8A4600B6A3B7 /* GoogleMaps.framework */; };
+		C1920E9719FA8A4600B6A3B7 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1920E9519FA8A4600B6A3B7 /* GoogleMaps.framework */; };
+		C1920E9919FA8AF200B6A3B7 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1920E9819FA8AF200B6A3B7 /* GoogleMaps.bundle */; };
+		C1920E9A19FA8AF200B6A3B7 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1920E9819FA8AF200B6A3B7 /* GoogleMaps.bundle */; };
+		C1920E9C19FA8B3C00B6A3B7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1920E9B19FA8B3C00B6A3B7 /* AVFoundation.framework */; };
+		C1920E9E19FA8B5100B6A3B7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1920E9D19FA8B5100B6A3B7 /* CoreData.framework */; };
+		C1920EA019FA8B5800B6A3B7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1920E9F19FA8B5800B6A3B7 /* CoreLocation.framework */; };
+		C1920EA219FA8B8F00B6A3B7 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1920EA119FA8B8F00B6A3B7 /* CoreText.framework */; };
+		C1920EA419FA8B9500B6A3B7 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1920EA319FA8B9500B6A3B7 /* GLKit.framework */; };
+		C1920EA619FA8BA100B6A3B7 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1920EA519FA8BA100B6A3B7 /* ImageIO.framework */; };
+		C1920EA819FA8BE300B6A3B7 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C1920EA719FA8BE300B6A3B7 /* libc++.dylib */; };
+		C1920EAA19FA9C3B00B6A3B7 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C1920EA919FA9C3B00B6A3B7 /* libicucore.dylib */; };
+		C1920EAC19FA9C4800B6A3B7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C1920EAB19FA9C4800B6A3B7 /* libz.dylib */; };
+		C1920EAE19FA9C5200B6A3B7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1920EAD19FA9C5200B6A3B7 /* OpenGLES.framework */; };
+		C1920EB019FA9C5A00B6A3B7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1920EAF19FA9C5A00B6A3B7 /* QuartzCore.framework */; };
+		C1920EB219FA9C6600B6A3B7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1920EB119FA9C6600B6A3B7 /* SystemConfiguration.framework */; };
+		C1920EB619FAAA0B00B6A3B7 /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = C1920EB519FAAA0B00B6A3B7 /* File.m */; };
+		C1920EB719FAAA0B00B6A3B7 /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = C1920EB519FAAA0B00B6A3B7 /* File.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +54,23 @@
 		C1920E8519FA87C300B6A3B7 /* RainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1920E8A19FA87C300B6A3B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1920E8B19FA87C300B6A3B7 /* RainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainTests.swift; sourceTree = "<group>"; };
+		C1920E9519FA8A4600B6A3B7 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		C1920E9819FA8AF200B6A3B7 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		C1920E9B19FA8B3C00B6A3B7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C1920E9D19FA8B5100B6A3B7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C1920E9F19FA8B5800B6A3B7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C1920EA119FA8B8F00B6A3B7 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C1920EA319FA8B9500B6A3B7 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C1920EA519FA8BA100B6A3B7 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		C1920EA719FA8BE300B6A3B7 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		C1920EA919FA9C3B00B6A3B7 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		C1920EAB19FA9C4800B6A3B7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C1920EAD19FA9C5200B6A3B7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C1920EAF19FA9C5A00B6A3B7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C1920EB119FA9C6600B6A3B7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C1920EB319FAAA0A00B6A3B7 /* Rain-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rain-Bridging-Header.h"; sourceTree = "<group>"; };
+		C1920EB419FAAA0B00B6A3B7 /* RainTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RainTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		C1920EB519FAAA0B00B6A3B7 /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +78,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1920EB219FA9C6600B6A3B7 /* SystemConfiguration.framework in Frameworks */,
+				C1920EB019FA9C5A00B6A3B7 /* QuartzCore.framework in Frameworks */,
+				C1920EAE19FA9C5200B6A3B7 /* OpenGLES.framework in Frameworks */,
+				C1920EAC19FA9C4800B6A3B7 /* libz.dylib in Frameworks */,
+				C1920EAA19FA9C3B00B6A3B7 /* libicucore.dylib in Frameworks */,
+				C1920EA819FA8BE300B6A3B7 /* libc++.dylib in Frameworks */,
+				C1920EA619FA8BA100B6A3B7 /* ImageIO.framework in Frameworks */,
+				C1920EA419FA8B9500B6A3B7 /* GLKit.framework in Frameworks */,
+				C1920EA219FA8B8F00B6A3B7 /* CoreText.framework in Frameworks */,
+				C1920EA019FA8B5800B6A3B7 /* CoreLocation.framework in Frameworks */,
+				C1920E9E19FA8B5100B6A3B7 /* CoreData.framework in Frameworks */,
+				C1920E9C19FA8B3C00B6A3B7 /* AVFoundation.framework in Frameworks */,
+				C1920E9619FA8A4600B6A3B7 /* GoogleMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1920E9719FA8A4600B6A3B7 /* GoogleMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +108,18 @@
 		C1920E6719FA87C300B6A3B7 = {
 			isa = PBXGroup;
 			children = (
+				C1920EB119FA9C6600B6A3B7 /* SystemConfiguration.framework */,
+				C1920EAF19FA9C5A00B6A3B7 /* QuartzCore.framework */,
+				C1920EAD19FA9C5200B6A3B7 /* OpenGLES.framework */,
+				C1920EAB19FA9C4800B6A3B7 /* libz.dylib */,
+				C1920EA919FA9C3B00B6A3B7 /* libicucore.dylib */,
+				C1920EA719FA8BE300B6A3B7 /* libc++.dylib */,
+				C1920EA519FA8BA100B6A3B7 /* ImageIO.framework */,
+				C1920EA319FA8B9500B6A3B7 /* GLKit.framework */,
+				C1920EA119FA8B8F00B6A3B7 /* CoreText.framework */,
+				C1920E9F19FA8B5800B6A3B7 /* CoreLocation.framework */,
+				C1920E9D19FA8B5100B6A3B7 /* CoreData.framework */,
+				C1920E9B19FA8B3C00B6A3B7 /* AVFoundation.framework */,
 				C1920E7219FA87C300B6A3B7 /* Rain */,
 				C1920E8819FA87C300B6A3B7 /* RainTests */,
 				C1920E7119FA87C300B6A3B7 /* Products */,
@@ -78,11 +139,14 @@
 			isa = PBXGroup;
 			children = (
 				C1920E7519FA87C300B6A3B7 /* AppDelegate.swift */,
+				C1920EB519FAAA0B00B6A3B7 /* File.m */,
 				C1920E7719FA87C300B6A3B7 /* ViewController.swift */,
 				C1920E7919FA87C300B6A3B7 /* Main.storyboard */,
 				C1920E7C19FA87C300B6A3B7 /* Images.xcassets */,
 				C1920E7E19FA87C300B6A3B7 /* LaunchScreen.xib */,
 				C1920E7319FA87C300B6A3B7 /* Supporting Files */,
+				C1920EB319FAAA0A00B6A3B7 /* Rain-Bridging-Header.h */,
+				C1920EB419FAAA0B00B6A3B7 /* RainTests-Bridging-Header.h */,
 			);
 			path = Rain;
 			sourceTree = "<group>";
@@ -90,6 +154,8 @@
 		C1920E7319FA87C300B6A3B7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C1920E9819FA8AF200B6A3B7 /* GoogleMaps.bundle */,
+				C1920E9519FA8A4600B6A3B7 /* GoogleMaps.framework */,
 				C1920E7419FA87C300B6A3B7 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +261,7 @@
 				C1920E7B19FA87C300B6A3B7 /* Main.storyboard in Resources */,
 				C1920E8019FA87C300B6A3B7 /* LaunchScreen.xib in Resources */,
 				C1920E7D19FA87C300B6A3B7 /* Images.xcassets in Resources */,
+				C1920E9919FA8AF200B6A3B7 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1920E9A19FA8AF200B6A3B7 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +282,7 @@
 			files = (
 				C1920E7819FA87C300B6A3B7 /* ViewController.swift in Sources */,
 				C1920E7619FA87C300B6A3B7 /* AppDelegate.swift in Sources */,
+				C1920EB619FAAA0B00B6A3B7 /* File.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1920E8C19FA87C300B6A3B7 /* RainTests.swift in Sources */,
+				C1920EB719FAAA0B00B6A3B7 /* File.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +362,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -327,6 +398,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -336,9 +408,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Rain",
+				);
 				INFOPLIST_FILE = Rain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rain/Rain-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +425,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Rain",
+				);
 				INFOPLIST_FILE = Rain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rain/Rain-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -356,9 +441,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Rain",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -367,6 +454,8 @@
 				INFOPLIST_FILE = RainTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rain/RainTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rain.app/Rain";
 			};
 			name = Debug;
@@ -375,13 +464,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Rain",
 				);
 				INFOPLIST_FILE = RainTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rain/RainTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rain.app/Rain";
 			};
 			name = Release;
